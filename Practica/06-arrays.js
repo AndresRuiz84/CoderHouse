@@ -70,5 +70,6 @@ if (index != -1) {
     
     console.log(calificaciones)
     console.log(aprobados(calificaciones))
+    
 
     
