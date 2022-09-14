@@ -1,9 +1,8 @@
 
-function Persona(nombre, apellido, edad, pais, ciudad, esDesarrollador) {
+function Persona(nombre, apellido, dni, mail) {
        this.nombre = nombre;
        this.apellido = apellido;
-       this.fechaNac = edad;
-       this.dni = this.dni;
+       this.dni = dni;
        this.mail = mail;
 
        this.saludar = () =>
@@ -13,7 +12,6 @@ function Persona(nombre, apellido, edad, pais, ciudad, esDesarrollador) {
 function crearPersona() {
       let nombre = prompt("Ingresa tu nombre");
       let apellido = prompt("Ingresa tu apellido");
-      let fechaNac = prompt("Ingresa tu fechaNac");
       let dni = prompt("Ingresa tu dni");
       let mail = prompt("Ingresa tu mail");
    
@@ -22,7 +20,7 @@ function crearPersona() {
         nombre,
         apellido,
         fechaNac,
-        dni,
+        
         mail
         
       );
